@@ -1,0 +1,61 @@
+{% extends 'base.html.twig' %}
+
+
+{% block body %}
+                <img src="{{ asset('images/binnen2.jpg') }}" class="fluid-width" alt="binnen">
+{% endblock %}
+
+{% block cards %}
+    <div class="container mt-3">
+        <div class="row">
+            <div class="col">
+                <div class="card border-dark" style="width: 18rem;">
+                    <img src="{{ asset('images/meneer.jpg') }}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h7 class="card-title"><b style="color: #3f9153">Doel 1: Tevredenheid</b></h7>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card border-dark" style="width: 18rem;">
+                    <img src="{{ asset('images/schaar.jpg') }}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h7 class="card-title"><b style="color: #3f9153">Doel 2: Zorgvuldigheid</b></h7>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card border-dark" style="width: 18rem;">
+                    <img src="{{ asset('images/achtergrond.jpg') }}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h7 class="card-title text-#65915a"><b style="color: #3f9153">Doel 3: Modern</b></h7>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <div class="container mb-3">
+        <div class="row">
+            <div class="col-3">
+            </div>
+            <div class="col-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-header"><b style="color: #3f9153">Onze Visie</b></h5>
+                        <br>
+                        <h6 class="card-title"><b style="color: #3f9153">'Kapper je haar zit goed'</b></h6>
+                        <h7 class="card-title"><b style="color:#3f9153"> Iedere dag mooi</b></h7>
+                        <p style="color: #3f9153" class="card-text">Iedere dag mensen mooier maken. Letterlijk en figuurlijk. Dat is waar we het voor doen. We zijn niet alleen bezig met het creëren van mooi haar. We zijn vooral ook bezig met jou. We luisteren naar wat jij wilt. We kijken naar wat bij jou past. Dit doen we omdat we begrijpen dat je er met een mooie look weer tegenaan kunt. Dat je je sterker en opgefrist voelt. Klaar voor wat je gaat doen.
+                            Sinds die dag, is het geven van persoonlijk advies onze kracht. Zo is jouw kapsel altijd afgestemd op jouw wensen en haartype. We willen graag dat je echt kan genieten van een moment voor jezelf. Bijvoorbeeld tijdens de ontspannende wasmassage in een van onze massagestoelen. Hierbij maken we gebruik van de beste haarproducten van merken als Kérastase, Olaplex en L’Oréal Professionnel. Zo laten we jou weer stralen en zien we je hopelijk snel weer bij ons terug.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+            </div>
+        </div>
+    </div>
+    <br>
+{% endblock %}
