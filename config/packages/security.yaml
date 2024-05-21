@@ -38,6 +38,7 @@ security:
          - { path: ^/employee, roles: ROLE_EMPLOYEE }
          -  { path: ^/customer, roles: ROLE_CUSTOMER }
 
+
 when@test:
     security:
         password_hashers:
